@@ -1,7 +1,7 @@
 import { createWorker } from 'tesseract.js';
 
 
-export default async function handler(req, res) {
+export default async function POST(req, res) {
 
   if (req.method === 'POST') {
 
