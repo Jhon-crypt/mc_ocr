@@ -3,7 +3,7 @@ import { createWorker } from 'tesseract.js';
 
 export default async function handler(req, res) {
 
-  //if (req.method === 'POST') {
+  if (req.method === 'POST') {
 
     const authToken = (req.headers.authorization || '').split("Bearer ").at(1)
     // replace ADMIN_AUTH_TOKEN with your expected token
@@ -25,12 +25,11 @@ export default async function handler(req, res) {
 
     }
     
-  /*} else {
+  } else {
 
     res.status(401).json({ error: "Wrong Http Request" });
 
   }
-  */
 
 }
 
