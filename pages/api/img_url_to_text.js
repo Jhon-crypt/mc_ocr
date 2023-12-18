@@ -1,6 +1,5 @@
 import { createWorker } from 'tesseract.js';
 
-
 export default async function POST(req, res) {
 
   if (req.method === 'POST') {
@@ -15,16 +14,16 @@ export default async function POST(req, res) {
       const worker = await createWorker('eng');
       const ret = await worker.recognize(data.image_url);
       await worker.terminate();
-      
-      res.status(200).json({ Auth_status: true,img_url: data.image_url, extracted_text: ret.data.text })
+
+      res.status(200).json({ Auth_status: true, img_url: data.image_url, extracted_text: ret.data.text })
 
 
-    }else{
+    } else {
 
-      res.status(401).json({ Auth_status:false,error: "Invalid Auth Token" });
+      res.status(401).json({ Auth_status: false, error: "Invalid Auth Token" });
 
     }
-    
+
   } else {
 
     res.status(401).json({ error: "Wrong Http Request" });
