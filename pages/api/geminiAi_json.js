@@ -13,7 +13,7 @@ export default async function GET(req, res) {
         // Parse the JSON data from the incoming request
         const data = req.body
         
-        const genAI = new GoogleGenerativCneAI(process.env.gemini_api_key);
+        const genAI = new GoogleGenerativeAI(process.env.gemini_api_key);
 
         // For text-only input, use the gemini-pro model
         const model = genAI.getGenerativeModel({ model: "gemini-pro" });
