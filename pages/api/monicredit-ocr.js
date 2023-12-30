@@ -21,7 +21,7 @@ export default function POST(req, res) {
                     };
 
                     // Send a request to the image-to-text API
-                    const response = await fetch('https://mc-ocr.onrender.com/api/img-to-text', {
+                    const response = await fetch('http://localhost:3000/api/img-to-text', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ export default function POST(req, res) {
                     };
 
                     // Send a request to the Gemini AI JSON API
-                    const response = await fetch('https://mc-ocr.onrender.com/api/geminiAi_json', {
+                    const response = await fetch('http://localhost:3000/api/geminiAi_json', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
