@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Monicredit Ai API
 
 First, run the development server:
 
@@ -15,6 +15,8 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/25586403-abe46143-94b3-419e-af84-7f109d26aedc?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25586403-abe46143-94b3-419e-af84-7f109d26aedc%26entityType%3Dcollection%26workspaceId%3D8b82b409-32a7-4425-bcc8-eae1169f7fd3)
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
