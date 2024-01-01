@@ -1,6 +1,6 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-export default async function GET(req, res) {
+export default async function POST(req, res) {
 
     if (req.method === 'POST') {
 
