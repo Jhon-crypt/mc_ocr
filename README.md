@@ -16,6 +16,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/25586403-b30b07de-26dc-4f90-88b7-baa49b697c72?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25586403-b30b07de-26dc-4f90-88b7-baa49b697c72%26entityType%3Dcollection%26workspaceId%3D8b82b409-32a7-4425-bcc8-eae1169f7fd3)
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.

@@ -1,8 +1,8 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 import formidable from 'formidable';
-const fs = require("fs");
-var mv = require('mv');
+import fs from 'fs';
+import mv from 'mv';
 
 //const { GoogleGenerativeAI } = require("@google/generative-ai");
 
